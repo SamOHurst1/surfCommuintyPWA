@@ -1,0 +1,60 @@
+.input {
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 14px 16px;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.05);
+    box-sizing: border-box;
+  }
+  
+  .heading {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .form-section {
+    margin-top: 10px;
+  }
+  
+  .note {
+    font-size: 14px;
+    color: #666;
+  }
+
+  .radio-options {
+    margin-top: 20px;
+  }
+  
+  .radio-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0;
+  }
+  
+  .radio-label {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .radio-circle {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    padding: 0;
+    display: inline-block;
+  }
+  
+  .radio-circle.selected {
+    background-color: #581845;
+    border-color: #581845;
+  }
